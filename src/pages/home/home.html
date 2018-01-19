@@ -1,14 +1,20 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>
-      Ionic Blank
+      Map
     </ion-title>
+    <ion-buttons end>
+      <button ion-button end (click)="addMarker()"><ion-icon name="add"></ion-icon>add marker</button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
+<ion-card #map id="map">
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
-</ion-content>
+</ion-card>
+<ion-card>
+    <ion-card-content>
+        <ion-list>
+          <button ion-button block>TOMBOL</button>
+        </ion-list>
+      </ion-card-content>
+</ion-card>
